@@ -41,7 +41,7 @@ Each plugin is completely isolated with its own agents and commands:
 Add this marketplace to Claude Code:
 
 ```
-/plugin marketplace add claude-code-templates
+/plugin marketplace add https://github.com/fandomchain-network/claude-code-templates
 ```
 
 This makes all 4 plugins available for installation, but does not load any agents or tools into your context.
