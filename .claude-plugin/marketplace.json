@@ -12,7 +12,7 @@
   "plugins": [
     {
       "name": "cosmos-scaffold",
-      "source": ".claude-plugin/plugins/cosmos-scaffold",
+      "source": "./.claude-plugin/plugins/cosmos-scaffold",
       "description": "Code generation tools for Cosmos SDK modules, messages, queries, and protobuf definitions with automated scaffolding",
       "version": "1.0.0",
       "author": {
@@ -43,7 +43,7 @@
     },
     {
       "name": "chain-configuration",
-      "source": ".claude-plugin/plugins/chain-configuration",
+      "source": "./.claude-plugin/plugins/chain-configuration",
       "description": "Blockchain configuration toolkit for genesis setup, validator configuration, IBC connections, and chain parameter management",
       "version": "1.0.0",
       "author": {
@@ -74,7 +74,7 @@
     },
     {
       "name": "bonding-curves-amm",
-      "source": ".claude-plugin/plugins/bonding-curves-amm",
+      "source": "./.claude-plugin/plugins/bonding-curves-amm",
       "description": "Advanced DeFi toolkit for implementing bonding curves, automated market makers (AMM), TokenFactory modules, and trading simulations",
       "version": "1.0.0",
       "author": {
@@ -105,7 +105,7 @@
     },
     {
       "name": "testing-validation",
-      "source": ".claude-plugin/plugins/testing-validation",
+      "source": "./.claude-plugin/plugins/testing-validation",
       "description": "Comprehensive testing and validation suite for unit tests, integration tests, simulations, and security audits",
       "version": "1.0.0",
       "author": {
