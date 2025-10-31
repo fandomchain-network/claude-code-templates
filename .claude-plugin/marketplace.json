@@ -1,0 +1,138 @@
+{
+  "name": "cosmos-blockchain-builder",
+  "owner": {
+    "name": "FandomChain Team",
+    "email": "contact@fandomchain.com",
+    "url": "https://github.com/fandomchain"
+  },
+  "metadata": {
+    "description": "Complete toolkit for building Cosmos SDK blockchains with 4 focused plugins covering code generation, chain configuration, bonding curves/AMM, and testing - designed for granular installation and production-ready workflows",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "cosmos-scaffold",
+      "source": "./plugins/cosmos-scaffold",
+      "description": "Code generation tools for Cosmos SDK modules, messages, queries, and protobuf definitions with automated scaffolding",
+      "version": "1.0.0",
+      "author": {
+        "name": "FandomChain Team",
+        "url": "https://github.com/fandomchain"
+      },
+      "homepage": "https://github.com/fandomchain/fandomchain-official-repo",
+      "repository": "https://github.com/fandomchain/fandomchain-official-repo",
+      "license": "MIT",
+      "keywords": [
+        "cosmos-sdk",
+        "code-generation",
+        "scaffolding",
+        "protobuf",
+        "modules"
+      ],
+      "category": "code-generation",
+      "strict": false,
+      "commands": [
+        "./commands/create-module.md",
+        "./commands/add-message.md",
+        "./commands/add-query.md"
+      ],
+      "agents": [
+        "./agents/module-architect.md",
+        "./agents/protobuf-engineer.md"
+      ]
+    },
+    {
+      "name": "chain-configuration",
+      "source": "./plugins/chain-configuration",
+      "description": "Blockchain configuration toolkit for genesis setup, validator configuration, IBC connections, and chain parameter management",
+      "version": "1.0.0",
+      "author": {
+        "name": "FandomChain Team",
+        "url": "https://github.com/fandomchain"
+      },
+      "homepage": "https://github.com/fandomchain/fandomchain-official-repo",
+      "repository": "https://github.com/fandomchain/fandomchain-official-repo",
+      "license": "MIT",
+      "keywords": [
+        "cosmos-sdk",
+        "genesis",
+        "validators",
+        "ibc",
+        "configuration"
+      ],
+      "category": "configuration",
+      "strict": false,
+      "commands": [
+        "./commands/setup-genesis.md",
+        "./commands/configure-validators.md",
+        "./commands/setup-ibc.md"
+      ],
+      "agents": [
+        "./agents/genesis-configurator.md",
+        "./agents/ibc-architect.md"
+      ]
+    },
+    {
+      "name": "bonding-curves-amm",
+      "source": "./plugins/bonding-curves-amm",
+      "description": "Advanced DeFi toolkit for implementing bonding curves, automated market makers (AMM), TokenFactory modules, and trading simulations",
+      "version": "1.0.0",
+      "author": {
+        "name": "FandomChain Team",
+        "url": "https://github.com/fandomchain"
+      },
+      "homepage": "https://github.com/fandomchain/fandomchain-official-repo",
+      "repository": "https://github.com/fandomchain/fandomchain-official-repo",
+      "license": "MIT",
+      "keywords": [
+        "bonding-curves",
+        "amm",
+        "defi",
+        "tokenfactory",
+        "trading"
+      ],
+      "category": "defi",
+      "strict": false,
+      "commands": [
+        "./commands/create-bonding-curve.md",
+        "./commands/configure-tokenfactory.md",
+        "./commands/simulate-trades.md"
+      ],
+      "agents": [
+        "./agents/amm-architect.md",
+        "./agents/curve-optimizer.md"
+      ]
+    },
+    {
+      "name": "testing-validation",
+      "source": "./plugins/testing-validation",
+      "description": "Comprehensive testing and validation suite for unit tests, integration tests, simulations, and security audits",
+      "version": "1.0.0",
+      "author": {
+        "name": "FandomChain Team",
+        "url": "https://github.com/fandomchain"
+      },
+      "homepage": "https://github.com/fandomchain/fandomchain-official-repo",
+      "repository": "https://github.com/fandomchain/fandomchain-official-repo",
+      "license": "MIT",
+      "keywords": [
+        "testing",
+        "validation",
+        "security",
+        "simulations",
+        "audit"
+      ],
+      "category": "testing",
+      "strict": false,
+      "commands": [
+        "./commands/generate-tests.md",
+        "./commands/run-simulations.md",
+        "./commands/security-audit.md"
+      ],
+      "agents": [
+        "./agents/test-engineer.md",
+        "./agents/security-auditor.md"
+      ]
+    }
+  ]
+}
